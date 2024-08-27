@@ -18,6 +18,8 @@ int main(){
     // int res = maxArea(aArr,10);
     // printf("the result is %d\n", res);
     // 24. 两两交换链
-    testSwapPairs();
+    // testSwapPairs();
+    // 47.全排列 2
+    testPermuteFunc();
     return 0;
 }

@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/suntao/Coding/C/helloworld/bin/helloworld'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _sum, symObjAddr: 0x0, symBinAddr: 0x10000345C, symSize: 0x20 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _sum, symObjAddr: 0x0, symBinAddr: 0x10000345C, symSize: 0x20 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x20, symBinAddr: 0x10000347C, symSize: 0x2C }
+  - { offsetInCU: 0x26, offset: 0xAF, size: 0x8, addend: 0x0, symName: _maxArea, symObjAddr: 0x0, symBinAddr: 0x1000034A8, symSize: 0x218 }
+  - { offsetInCU: 0x41, offset: 0xCA, size: 0x8, addend: 0x0, symName: _maxArea, symObjAddr: 0x0, symBinAddr: 0x1000034A8, symSize: 0x218 }
+  - { offsetInCU: 0x26, offset: 0x178, size: 0x8, addend: 0x0, symName: _backtrack, symObjAddr: 0x0, symBinAddr: 0x1000036C0, symSize: 0x150 }
+  - { offsetInCU: 0x4D, offset: 0x19F, size: 0x8, addend: 0x0, symName: _vis, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x1B5, size: 0x8, addend: 0x0, symName: _backtrack, symObjAddr: 0x0, symBinAddr: 0x1000036C0, symSize: 0x150 }
+  - { offsetInCU: 0xF5, offset: 0x247, size: 0x8, addend: 0x0, symName: _cmp, symObjAddr: 0x150, symBinAddr: 0x100003810, symSize: 0x28 }
+  - { offsetInCU: 0x12B, offset: 0x27D, size: 0x8, addend: 0x0, symName: _permuteUnique, symObjAddr: 0x178, symBinAddr: 0x100003838, symSize: 0x114 }
+  - { offsetInCU: 0x1B5, offset: 0x307, size: 0x8, addend: 0x0, symName: _printTwoDimInt, symObjAddr: 0x28C, symBinAddr: 0x10000394C, symSize: 0x170 }
+  - { offsetInCU: 0x257, offset: 0x3A9, size: 0x8, addend: 0x0, symName: _testPermuteFunc, symObjAddr: 0x3FC, symBinAddr: 0x100003ABC, symSize: 0x104 }
+  - { offsetInCU: 0x26, offset: 0x44C, size: 0x8, addend: 0x0, symName: _swapPairs, symObjAddr: 0x0, symBinAddr: 0x100003BC0, symSize: 0x110 }
+  - { offsetInCU: 0x6E, offset: 0x494, size: 0x8, addend: 0x0, symName: _swapPairs, symObjAddr: 0x0, symBinAddr: 0x100003BC0, symSize: 0x110 }
+  - { offsetInCU: 0xDC, offset: 0x502, size: 0x8, addend: 0x0, symName: _testSwapPairs, symObjAddr: 0x110, symBinAddr: 0x100003CD0, symSize: 0x19C }
+...
