@@ -3,16 +3,12 @@
     "configurations": [
         {
             "name": "(Mac) Launch",
-            "type": "cppdbg",
+            "type": "lldb",
             "preLaunchTask": "Mac Build Task",
             "request": "launch",
             "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "lldb"
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": "(Windows) Launch",

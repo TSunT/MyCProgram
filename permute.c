@@ -68,7 +68,7 @@ void printTwoDimInt(int** source,int** returnColumnSizes, int* returnSize){
         }
         printf("]");
     }
-    printf("]");
+    printf("]\n");
 }
 
 void testPermuteFunc(){

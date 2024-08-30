@@ -5,6 +5,11 @@ int sum(int a, int b){
 }
 
 int hellomain(){
+    printf("Hello, World!\n");
+    int a = 0, b = 0;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("a= %d, b= %d, a+b=%d\n",a,b,a+b);
     // int a,b;
     // printf("hello world!!!\n");
     // printf("input var1>");
