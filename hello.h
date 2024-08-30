@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <string.h>
 // 11. 盛最多的水
 int maxArea(int* height, int heightSize);
 // 24. 两两交换链表中的节点
@@ -14,5 +15,6 @@ void testSwapPairs();
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  * int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumnSizes);
  */
-void testPermuteFunc();
+// void testPermuteFunc();
+void testPermuteUnique();
 #endif
