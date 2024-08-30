@@ -2,8 +2,9 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) Launch", // mac
+            "name": "(Mac) Launch",
             "type": "cppdbg",
+            "preLaunchTask": "Mac Build Task",
             "request": "launch",
             "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
             "args": [],
@@ -11,12 +12,12 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
-            "MIMode": "lldb",
-            "terminal": "integrated"
+            "MIMode": "lldb"
         },
         {
-            "name": "(gdb) Launch", // win
+            "name": "(Windows) Launch",
             "type": "cppdbg",
+            "preLaunchTask": "Windows Build Task",
             "request": "launch",
             "program": "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
             "args": [],

@@ -27,7 +27,7 @@
             "windowsSdkVersion": "10.0.22000.0",
             "cStandard": "c11",
             "cppStandard": "c++11",
-            "intelliSenseMode": "windows-msvc-x64",
+          //  "intelliSenseMode": "windows-msvc-x64",
             "compilerPath": "D:/mingw64/bin/gcc.exe"
         }
     ],

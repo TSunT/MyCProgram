@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: clang build active file",
+            "label": "Mac Build Task",
             "command": "/usr/bin/clang",
             "args": [
                 "-fcolor-diagnostics",
@@ -23,7 +23,7 @@
             "detail": "compiler: /usr/bin/clang"
         },
         {
-            "label": "g++.exe build active file",
+            "label": "Windows Build Task",
             "type": "shell",
             "command": "D:\\mingw64\\bin\\g++.exe",
             "args": [

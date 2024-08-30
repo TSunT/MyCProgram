@@ -8,7 +8,7 @@ int* vis;
 void backtrack(int** result, int* nums, int level, int* colNums, int numsSize, int* returnSize){
     // 当 level = numsSize 拼接后更新 result 
     if(level == numsSize){
-        int* tmp = malloc(sizeof(int)*(numsSize));
+        int* tmp =(int*) malloc(sizeof(int)*(numsSize));
         memcpy(tmp,colNums,sizeof(int)*(numsSize));
         result[(*returnSize)++] = tmp;
         return;
@@ -32,13 +32,13 @@ void backtrack(int** result, int* nums, int level, int* colNums, int numsSize, i
 
 int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes){
     *returnSize = 0;
-    int** result = malloc(sizeof(int*)*MAX_SIZE);
-    int* colArr = malloc(sizeof(int)*MAX_SIZE);
-    vis = malloc(sizeof(int)*(numsSize));
+    int** result = (int**) malloc(sizeof(int*)*MAX_SIZE);
+    int* colArr = (int*) malloc(sizeof(int)*MAX_SIZE);
+    vis = (int*) malloc(sizeof(int)*(numsSize));
     memset(vis,0,sizeof(int)*numsSize);
     backtrack(result,nums,0,colArr,numsSize,returnSize);
 
-    *returnColumnSizes = malloc(sizeof(int)*(*returnSize));
+    *returnColumnSizes = (int*) malloc(sizeof(int)*(*returnSize));
     for (int i = 0; i < *returnSize; i++)
     {
         (*returnColumnSizes)[i] = numsSize;
@@ -72,14 +72,14 @@ void printTwoDimInt(int** source,int** returnColumnSizes, int* returnSize){
 }
 
 void testPermuteFunc(){
-    int* numArr = malloc(sizeof(int)*MAX_SIZE);
+    int* numArr = (int*) malloc(sizeof(int)*MAX_SIZE);
     int size = 4;
     for (int i = 0; i < size; i++)
     {
         *(numArr+i) = i+1;
     }
-    int** returnColumnSize = malloc(sizeof(int*)*MAX_SIZE);
-    int* returnSize = malloc(sizeof(int));
+    int** returnColumnSize = (int**) malloc(sizeof(int*)*MAX_SIZE);
+    int* returnSize = (int*) malloc(sizeof(int));
     int** result = permute(numArr, size,returnSize,returnColumnSize);
     // print result
     if(result != NULL && returnSize != NULL && returnColumnSize != NULL){
