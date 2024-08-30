@@ -31,7 +31,7 @@ void testRotate(){
     for (int i = 0; i < MAX_SIZE; i++)
     {
         int* rowPtr = matrixPtr[i];
-        *rowPtr = malloc(sizeof(int)*MAX_SIZE);
+        rowPtr = malloc(sizeof(int)*MAX_SIZE);
         for (int j = 0; j < MAX_SIZE; j++)
         {
             *(rowPtr+j) = temp++;
