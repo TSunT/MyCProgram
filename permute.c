@@ -1,6 +1,6 @@
 #include "hello.h"
 
-#define MAX_SIZE  2001
+#define MAX_SIZE  65536
 
 // 访问标记数组
 int* vis;
@@ -22,7 +22,7 @@ void backtrack(int** result, int* nums, int level, int* colNums, int numsSize, i
         }
         *(vis+i)=1;
         *(colNums+level) = *(nums+i);
-        printf("pos: %d val:%d\t",i,*(colNums+level));
+        // printf("pos: %d val:%d\t",i,*(colNums+level));
         backtrack(result,nums,level+1,colNums,numsSize,returnSize);
         //*(colNums+level) = 0;
         *(vis+i)=0;

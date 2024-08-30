@@ -16,4 +16,8 @@ void testSwapPairs();
  * int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumnSizes);
  */
 void testPermuteFunc();
+/**
+ * 48. 旋转图像
+ */
+void testRotate();
 #endif
