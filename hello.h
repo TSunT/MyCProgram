@@ -20,4 +20,9 @@ void testPermuteFunc();
  * 48. 旋转图像
  */
 void testRotate();
+
+/**
+ * 64. 不同路径
+ */
+int uniquePaths(int,int);
 #endif

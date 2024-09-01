@@ -8,6 +8,8 @@ int main(void) {
     // 24. 两两交换链
     // testSwapPairs();
     // 46.全排列
-    testPermuteFunc();
+    // testPermuteFunc();
+    // 64.不同路径
+    uniquePaths(3,7);
     return 0;
 }
