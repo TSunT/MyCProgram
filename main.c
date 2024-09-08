@@ -9,7 +9,9 @@ int main(void) {
     // testSwapPairs();
     // 46.全排列
     // testPermuteFunc();
-    // 64.不同路径
-    uniquePaths(3,7);
+    // 62.不同路径
+    // uniquePaths(3,7);
+    // 63. 不同路径 II
+    testUniquePathsWithObstacles();
     return 0;
 }

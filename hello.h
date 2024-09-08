@@ -22,7 +22,12 @@ void testPermuteFunc();
 void testRotate();
 
 /**
- * 64. 不同路径
+ * 62. 不同路径
  */
 int uniquePaths(int,int);
+
+/**
+ * 63. 不同路径 II (带阻碍)
+ */
+int testUniquePathsWithObstacles();
 #endif
