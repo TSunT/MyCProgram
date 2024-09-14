@@ -4,6 +4,21 @@
 #include <stdlib.h>
 #include <string.h>
 #include <string.h>
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+
+struct ListNode
+{
+    int val;
+    struct ListNode *next;
+};
+
 // 11. 盛最多的水
 int maxArea(int* height, int heightSize);
 // 24. 两两交换链表中的节点
@@ -20,6 +35,11 @@ void testPermuteFunc();
  * 48. 旋转图像
  */
 void testRotate();
+
+/**
+ * 61. 旋转链表
+ */
+void testRotateRight();
 
 /**
  * 62. 不同路径
