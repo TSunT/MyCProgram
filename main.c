@@ -10,10 +10,11 @@ int main(void) {
     // 46.全排列
     // testPermuteFunc();
     // 48. 旋转图像
-    testRotate();
+    // testRotate();
     // 62.不同路径
     // uniquePaths(3,7);
     // 63. 不同路径 II
     // testUniquePathsWithObstacles();
+    changeUpper2Lower();
     return 0;
 }

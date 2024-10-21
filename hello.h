@@ -50,4 +50,14 @@ int uniquePaths(int,int);
  * 63. 不同路径 II (带阻碍)
  */
 int testUniquePathsWithObstacles();
+
+/**
+ * 207. 课程表
+ */
+// void testCanFinish();
+
+/**
+ * 大写字母转小写字母
+ */
+int changeUpper2Lower();
 #endif
